@@ -1,0 +1,25 @@
+.card{
+    box-shadow: 0 0 15px 0 rgba(black,.5);
+    transition: all .5s;
+    &:hover{
+        box-shadow: 0 0 30px 0 rgba(orange,.25);
+        filter: brightness(1.2);
+    }
+    .card-img{
+        min-height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 1s;
+    }
+    @include media-breakpoint-up(lg){
+        .card-img{
+            background-size: 100%;
+        }
+        &:hover{
+            .card-img{
+                background-size: 120%;
+            }
+        }
+    }
+}

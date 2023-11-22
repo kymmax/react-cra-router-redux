@@ -1,0 +1,49 @@
+.img-loading{
+    animation: img-loading infinite 1s linear;
+}
+
+@keyframes img-loading {
+    0%{
+        background: rgba($light,0);
+    }
+    50%{
+        background: rgba($light,.5);
+    }
+    100%{
+        background: rgba($light,0);
+    }
+}
+
+img::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+// 
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .spinner {
+      width: 250px;
+      height: 150px;
+      position: relative;
+      animation: rotation 0.75s linear infinite;
+      border-radius: 100em;
+    }
+    
+    .path {
+      stroke-dasharray: 100;
+      stroke-dashoffset: 20;
+      stroke-linecap: round;
+    }
+}
+  
+@keyframes rotation {
+    to {
+        transform: rotate(360deg);
+    }
+}

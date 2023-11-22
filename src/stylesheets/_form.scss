@@ -1,0 +1,14 @@
+.form-control{
+    color: orange;
+    &:focus{
+        color: orange;
+    }
+}
+
+.form-select{
+    color: orange;
+}
+
+.form-control-plaintext{
+    color: orange;
+}

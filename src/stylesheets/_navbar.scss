@@ -1,0 +1,47 @@
+
+
+
+.navbar-frame{
+    background: rgba(black,.7);
+    backdrop-filter: blur(10px);
+}
+
+.navbar{
+    align-items: baseline;
+}
+
+.navbar-brand{
+    position: absolute;
+    color: $light;
+}
+
+.nav-item{
+    font-size: 2rem;
+    @include media-breakpoint-up(lg){
+        font-size: 1rem;
+    }
+}
+
+.navbar .nav-link{
+    color: $light;
+    &.active{
+        color: $primary;
+    }
+    &:hover{
+        color: $primary;
+    }
+}
+
+.navbar-collapse{
+    &.show{
+        width: 100%;
+    }
+}
+
+.navbar-toggler{
+    border: none;
+    filter: contrast(0);
+    &:focus{
+        box-shadow: none;
+    }
+}
