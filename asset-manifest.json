@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-cra-router-redux/static/css/main.af712f36.css",
-    "main.js": "/react-cra-router-redux/static/js/main.d2bc3b75.js",
+    "main.js": "/react-cra-router-redux/static/js/main.bcc30ed1.js",
     "static/js/787.42e662ad.chunk.js": "/react-cra-router-redux/static/js/787.42e662ad.chunk.js",
     "static/media/bootstrap-icons.woff?": "/react-cra-router-redux/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/react-cra-router-redux/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/react-cra-router-redux/index.html",
     "main.af712f36.css.map": "/react-cra-router-redux/static/css/main.af712f36.css.map",
-    "main.d2bc3b75.js.map": "/react-cra-router-redux/static/js/main.d2bc3b75.js.map",
+    "main.bcc30ed1.js.map": "/react-cra-router-redux/static/js/main.bcc30ed1.js.map",
     "787.42e662ad.chunk.js.map": "/react-cra-router-redux/static/js/787.42e662ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af712f36.css",
-    "static/js/main.d2bc3b75.js"
+    "static/js/main.bcc30ed1.js"
   ]
 }
